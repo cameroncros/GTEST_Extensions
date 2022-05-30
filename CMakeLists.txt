@@ -20,5 +20,6 @@ add_executable(GTEST_EXT test_chroot.cpp filetools.c filetools.h gtest_chroot.h)
 target_link_libraries(
         GTEST_EXT
         gtest_main
+        cap
 )
 gtest_discover_tests(GTEST_EXT)
